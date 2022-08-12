@@ -7,8 +7,8 @@ box();
     hire.addEventListener("change",(ev) =>{
         ev.preventDefault();
         var input = document.createElement("input");
-        input.setAttribute("type","text");
-        input.setAttribute("placeholder","Hourly pay");
+        input.setAttribute("type","number");
+        input.setAttribute("placeholder","Hourly pay $");
         var br = document.createElement("br");
         var box = document.querySelector(".box").innerHTML = "";
         var box = document.querySelector(".box").appendChild(input);
