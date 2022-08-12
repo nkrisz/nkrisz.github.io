@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style.css" type="text/css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Edu+QLD+Beginner:wght@430&display=swap" rel="stylesheet">
+    
+    
+</head>
+<body>
+    <script src="./js/Utils.js"></script>
+    <div class="polo" id="polo">
+        <nav>
+            <h2 class="main">Nikhil <span class="ft6">Krishnan</span></h2>
+            <ul>
+                <li><a href="#abt"> About</a></li>
+                <li><a href="#mario"> Education</a></li>
+                <li><a href="#kip1"> Contact</a></li>
+            </ul>
+        </nav>
+        <div class="intro">
+            <h2 class="int">Hi, I'm currently pursuing Computer Science at</h2>
+            <h2 class="int">Seneca College,Toronto.</h2>
+            <h2 class="int">Game developer/Web Developer</h2>
+
+            <br> <br> 
+            <button class="btn"><a href="./css/mostRecent.pdf" target="_blank">Resume</a></button>
+            <button id="yy">Contact me</button>
+        </div>
+    </div>
+    <section  id="abt" class="about">
+            <div class="text">
+                <h1 id="ll">About me</h1>
+                <br>
+                <h4 id="ge">Student/<span>Aspiring developer</span></h4>
+                <p>I am presently finishing my first year of Computer Programming and Analysis at Seneca College.
+                   I'm really passionate about Computer Science and computers in general. So far I have learnt and worked with C, 
+                   C++, JavaScript and MySQL.<br><br><h4>Academic <span>Honesty</span></h4><p>I declare that this assignment is my own work in accordance with
+                   Seneca Academic Policy. No part of this assignment has been copied manually or electronically from any other source (including web sites) or distributed to other students.</p>
+                </p>
+                <br>
+                <h4>Basic <span>Information</span></h4>
+                <table id="tb">
+                    <tr>
+                        <td>Name:</td> 
+                        <td>Nikhil Krishnan</td>
+                    </tr>
+                    <tr>
+                        <td>Age:</td> 
+                        <td>20</td>
+                    </tr>
+                    <tr>
+                        <td>Email:</td>
+                        <td>nkrishnan1@myseneca.ca</td>
+                    </tr>
+                    <tr>
+                        <td>Languages:</td>
+                        <td>English</td>
+                    </tr>
+                    <tr>
+                        <td>Class Section:</td>
+                        <td>NDD</td>
+                    </tr>
+                    <tr>
+                        <td>Student ID:</td>
+                        <td>156591216</td>
+                    </tr>
+                    <tr>
+                        <td>Instructor:</td>
+                        <td>Dr. Muath Alzghool.</td>
+                    </tr>
+                </table>
+            </div>
+    </section>
+    <section id ="mario" class="educ">
+        <div class="t4">
+        <h1 id="lle">Education</h1>
+    </div>
+    <div class="ed">
+        <h2>2022-present</h2>
+         <h2>Seneca College</h2>
+        <p>Advanced Diploma-Computer Programming and Analysis</p>
+    </div>
+    <br><br>   
+        <div class="ed">
+            <h2>2006-2020</h2>
+             <h2>TocH Public School</h2>
+            <p>High School</p>
+        </div>
+        <br><br>
+        <div class="ed">
+            <h2>Skills</h2>
+             <p>C++,C,HTML,CSS</p>
+             <p>JavaScript,MySQL</p>
+        </div>
+    </section>
+    <section class="conta" id="kip1">
+     <div class="contact">
+        <h1>Contact</h1>
+        <form action="https://httpbin.org/post" class="myfrom" method="post">
+            <div class="menace">
+            <label for="fName">Full name</label><br>
+            <input type="text" name="fName" id="fName" placeholder="Nikhil Krishnan" required><br>
+            <label for="mil">E-Mail</label><br>
+            <input type="email" name="mil" id="mil" placeholder="nikhil@example.com" required><br>
+          
+            <label for="adr">Street</label><br>
+            <input type="text" name="adr" id="adr" placeholder="100 Bathurst St"  required> <br>
+            <label for="City">City</label><br>
+            <input type="text" list="city" required placeholder="Toronto">
+            <datalist id="city">
+               <option value="Toronto">Toronto</option>
+               <option value="Vancouver">Vancouver</option>
+               <option value="Montreal">Montreal</option>
+               <option value="Calgary">Calgary</option>
+               <option value="Halifax">Halifax</option>
+               <option value="Thunder Bay">Thunder Bay</option>
+            </datalist> <br>
+           <label for="zip">Zip</label><br>
+        </div>
+           <input type="text" name="zip" id="zip" maxlength="7" placeholder="L5G 3E4" pattern="[ABCEGHJKLMNPRSTVXY][0-9][ABCEGHJKLMNPRSTVWXYZ] ?[0-9][ABCEGHJKLMNPRSTVWXYZ][0-9]"><br><br>
+           <input type="radio" name="choice" id="choice1" value="choice1"> Comment<br>
+           <input type="radio" name="choice" id="choice2" value="choice2"> Question<br>
+           <input type="radio" name="choice" id="choice3" value="choice3"> Hiring<br>
+           <div class="box"></div>
+           <br><textarea name="mesa" id="mesa" cols="50" rows="10"></textarea><br><br>
+           <input type="submit" name="sub" id="sub" value="submit">
+           <input type="reset" name="clr" id="clr" value="clear">
+        </form>
+     </div>
+    </section>
+</body>
+</html>

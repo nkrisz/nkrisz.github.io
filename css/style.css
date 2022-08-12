@@ -1,0 +1,328 @@
+*{
+    font-size: 15px;
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+    
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden; 
+}
+.polo{
+    font-family: 'Silkscreen', cursive;
+    height: 100vh;
+    width: 100%;
+    justify-content: center;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url(./background.jpg);
+    background-size: cover;
+    background-position: center;
+    display: block;
+    
+    
+}
+.ft6{
+    color:rgb(240, 58, 58);
+    font-size:35px
+}
+.main{
+   font-size: 35px;
+   color: #f8f8f8;
+   align-items: center;
+   letter-spacing: 3px;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 10%;
+}
+span{
+    font-size: 25px;
+    color:rgb(205, 77, 77);
+}
+nav ul li{
+    list-style-type: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+nav ul li a{
+    font-size: smaller;
+    color: #f8f8f8;
+    font-weight: 400;
+    text-transform: capitalize;
+    text-decoration: none;
+}
+nav ul li a:hover{
+    color:rgb(205, 77, 77);
+    transition: .4s;
+}
+.intro{
+    margin-top: -30px;
+    max-width:95%;
+    font-weight: 400;
+    padding-top: 40px;
+    padding-left: 8%;
+    padding-right: 10%;
+    animation-name: color;
+    animation-duration: 2.5s;
+    animation-iteration-count: infinite;
+    color:rgb(240, 58, 58);
+}
+@keyframes color{
+    from{color:rgb(240, 58, 58);}
+    to{color:lightcoral;}
+    to{color: lightpink;}
+    to{color: #f8f8f8;}
+}
+@keyframes color2{
+    
+}
+h1{   
+    font-size: 35px;
+    margin: 10px 0px 20px;
+}
+h2{
+font-size: 25px;
+margin: 10px 0px 20px;
+}
+h3{
+    font-weight: 400;
+    font-size: 25px;
+    margin: 10px 0px 20px;
+}
+h4{
+    font-weight: 400;
+    letter-spacing: 3px;
+    font-size: 25px;
+    margin: 10px 0px 20px;
+}
+hr.line{
+    border-bottom: 5px double;
+    color: rgb(145, 18, 18);
+}
+.about{
+    font-family: 'Silkscreen', cursive;
+    width: 100%;
+    padding: 50px 100px;
+    background-color: #2b2024;
+    color: #f8f8f8;
+    
+}
+.about p{
+    color: #f8f8f8;
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 20px;
+    letter-spacing: 2px;
+}
+td{
+    font-family: 'Edu QLD Beginner', cursive;
+    font-size: 20px;
+    padding-right: 50px;
+}
+button{
+    margin-right: 80px;
+    font-family: 'Silkscreen', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    border: 20px;
+    border-radius: 25px;
+    padding: 15px;
+    margin-top: -10px;
+}
+button:hover{
+    color:rgb(240, 58, 58);
+    transition: .2s;
+}
+#yy{
+    float: 30px;
+}
+@media screen and (max-width: 600px) {
+    h1{   
+        font-size: 15px;
+        
+    }
+    h2{
+    font-size: 15px;
+    margin: 0px 10px 20px;
+    }
+    h3{
+        font-weight: 400;
+        font-size: 15px;
+        margin: 10px 0px 10px;
+    }
+    h4{
+        font-weight: 400;
+        letter-spacing: 3px;
+        font-size: 15px;
+        margin: 10px 0px;
+    }
+    .main{
+        margin-left: 50px;
+        font-size: 20px;
+    }
+    .ft6{
+        font-size: 20px;
+    }
+    .polo{
+        
+        font-size: 10px;
+    }
+    button{
+        border:10px;
+        padding:12px;
+        font-weight: 400;
+        font-size: 10px;
+        margin-right: 20px;
+        margin-left: 40px;
+    }
+    button a{
+        font-size: 10px;
+        font-weight: 400;
+    }
+    td{
+        font-weight: bold;
+        font-size: 13px;
+    }
+   .text{
+    font-size: 10px;
+    letter-spacing: 1px;
+   }
+   nav ul{
+    margin-top: 10px;
+    margin-left: 0px;
+   }
+   nav ul li{
+    font-size: 10px;
+    display: block;
+    padding-top: 3px;
+    padding-left: 45px;
+    align-items: center;
+}
+.about p{
+    font-size: 15px;
+    letter-spacing: 1px;
+}
+ input{
+    font-size: 15px;
+  }
+  label{
+    font-size: 15px;
+  }
+ 
+div #ll{
+    font-weight: 700;
+    font-size: 20px;
+}
+.int{
+    font-size: 10px;
+    margin: 30px 50px 30px;
+}
+#lle{
+    font-size: 30px;
+}
+.intro{
+margin-top: -65px;
+}
+ span{
+    font-size: 15px;
+ }
+ .contact{
+    font-size: 15px;
+ }
+ textarea{
+    height: 5em;
+    width: 15em;
+ }
+ label{
+    font-size:5px;
+ }
+ .ed{
+margin-right: 100px;
+ }
+}
+     
+  
+  .ed{
+    justify-content: space-between;
+    align-items: center;
+    box-sizing: content-box;
+    border: 2px inset #000000;
+    width: 220px;
+    border-radius: 3px;
+    margin-left: 100px;
+    padding: 10px;
+    font-family: 'Silkscreen', cursive;
+    font-size: larger;
+    font-weight: 100;
+    background-color: #f5b553;
+  }
+  .t4{
+    font-family: 'Silkscreen', cursive;
+    font-weight: 700;
+    font-size: 50px;
+    padding: 40px;
+    margin: 0px 60px 30px;
+    letter-spacing: 3px;
+    cursor: pointer;
+  }
+  .educ{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.409), rgba(0, 0, 0, 0.409)),url(./pacman.png);
+    background-size: cover;
+    height:900px;
+  }
+  #ll{
+    font-size: 40px;
+  }
+  #lle{
+    color: #f8f8f8;
+  }
+  table{
+    font-family: 'Edu QLD Beginner', cursive;
+  }
+  .contact{
+    font-family: 'Silkscreen', cursive;
+    font-size: 25px;
+    width: 100%;
+    padding: 50px 70px;
+    background-color: #0e2431;
+    color: #f8f8f8;
+    
+  }
+  input{
+    font-family: 'Silkscreen', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #d8e9f0;
+  }
+  option{
+    font-family: 'Silkscreen', cursive;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: #d8e9f0;
+  }
+  label{
+    font-size: 15px;
+  }
+#id{
+    font-size: 13px;;
+}
+#sub:hover{
+    color:rgb(205, 77, 77);
+    transition: .4s;
+}
+#clr:hover{
+    color:rgb(205, 77, 77);
+    transition: .4s;
+}
+a{
+    color:black;
+    font-size: 15px;
+    text-decoration: none;
+}
